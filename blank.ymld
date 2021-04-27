@@ -1,5 +1,5 @@
 {
-  "name": "advancedprofanityfilter",
+  "name": "Profanity Filtering Muted",
   "version": "2.18.0",
   "description": "A browser extension to filter profanity from webpages.",
   "main": "filter.js",
@@ -14,9 +14,9 @@
   "author": "Travis Libby",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/richardfrost/AdvancedProfanityFilter/issues"
+    "url": "https://github.com/TravisLibby/Profanity Filtering Muted /issues"
   },
-  "homepage": "https://github.com/richardfrost/AdvancedProfanityFilter#readme",
+  "homepage": "https://github.com/TravisLibby/ProfanityFilteringMuted#readme",
   "scripts": {
     "build:libs": "tsc -p ./src/script/lib/tsconfig.json",
     "build:static": "node bin/copy-static.js",
