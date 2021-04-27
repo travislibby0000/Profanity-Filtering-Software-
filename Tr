@@ -32,6 +32,8 @@ export default class BookmarkletFilter extends Filter {
   processMutationTarget: boolean;
   processNode: (node: HTMLElement | Document | ShadowRoot, wordlistId: number, stats?: boolean) => void;
   shadowObserver: MutationObserver;
+Mute just one profanity word (Webfilter: Audio Bleep)
+
 
   constructor() {
     super();
