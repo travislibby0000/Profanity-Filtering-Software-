@@ -18,31 +18,13 @@ var StreamCleanWorker = /** @class */ (function () {
             AmazonCA: { selector: ".persistentPanel" },
             AmazonCoUk: { selector: ".persistentPanel" },
             AmazonPrimeVideo: { selector: ".fg8afi5" },
-            AppleTv: {
-                selector: ".video-container",
-                domSelector: function () {
-                    var docAppleTvPlayer = document.querySelector("apple-tv-plus-player").shadowRoot;
-                    var docAppleWindowTakeover = docAppleTvPlayer.querySelector("amp-window-takeover");
-                    var docAppleInternalPlayer = docAppleWindowTakeover.querySelector("amp-video-player-internal").shadowRoot;
-                    var docAppleVideoPlayer = docAppleInternalPlayer.querySelector("amp-video-player").shadowRoot;
-                    return docAppleVideoPlayer;
-                }
-            },
-            CharterSpectrum: { selector: ".bmpui-container-wrapper" },
-            Crackle: { selector: ".clpp-subtitles" },
-            DiscoveryLife: { selector: ".vjs-text-track-display" },
-            DishAnywhere: { selector: ".bmpui-ui-subtitle-label" },
-            Epix: { selector: ".fp-subtitle" },
+            Hbo: { selector: ",fg8afi5" },
             FrndlyTV: { selector: ".jw-captions" },
-            FuboTV: { selector: ".bmpui-ui-subtitle-label" },
-            HallmarkMoviesNow: { selector: ".oo-text-track" },
-            // This selector is very generic and processes lots of text that aren't actually captions.
-            // Hbo uses the 'default' class everywhere and there's nothing specific to subtitles. 
-            //
-            // A new HBO filter is being used that implements a MutationObserver.
-            // Eventually the other supported sites will use also an observer.
-            // HboMax: { selector: "div.class3 > span" },
-            Hulu: { selector: ".CaptionBox" },
+           Hulu: { selector: ".CaptionBox" },
+            ID: { selector: ".vjs-text-track-display" },
+         
+    
+
             ID: { selector: ".vjs-text-track-display" },
             IMDB: { selector: ".captions" },
             NBC: { selector: "anv-caption-608-frame-line-char" },
