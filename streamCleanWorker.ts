@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var filter_1 = require("./filter");
-var streamClean_1 = require("./streamClean");
+var profanityfiltering_1 = require("./profanityfiltering");
 var StreamCleanWorker = /** @class */ (function () {
     function StreamCleanWorker(dirtyWords, hideCaptions, hideCaptionsWhenFiltered, showCaptionsWhenFiltered, pollInterval, muteDelay) {
         var _this = this;
