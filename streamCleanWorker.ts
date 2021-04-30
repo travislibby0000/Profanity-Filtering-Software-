@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var filter_1 = require("./filter");
 var profanityfiltering_1 = require("./profanityfiltering");
-var StreamCleanWorker = /** @class */ (function () {
-    function StreamCleanWorker(dirtyWords, hideCaptions, hideCaptionsWhenFiltered, showCaptionsWhenFiltered, pollInterval, muteDelay) {
+var Profanityfilteringworker = /** @class */ (function () {
+    function profanityfilteringworker(dirtyWords, hideCaptions, hideCaptionsWhenFiltered, showCaptionsWhenFiltered, pollInterval, muteDelay) {
         var _this = this;
         this.isMuted = false;
         this.mutedCounter = 0;
