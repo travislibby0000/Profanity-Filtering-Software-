@@ -1,0 +1,9 @@
+Local
+filterWords: (363) ["annoyingass", "anus", "apeshit", "arse", "arse-hole", "arsehole", "ass", "ass-clown", "ass-clowns", "ass-guard", "ass-hole", "ass-holes", "ass-kickin", "ass-kicking", "ass-kissing", "ass-lick", "ass-ream", "ass-reaming", "ass-whipe", "ass-wipe", "assed", "asses", "assface", "assguard", "asshold", "asshole", "assholes", "assholey", "assholic", "assicle", "asskickin", "asskicking", "asskissing", "assless", "asslick", "assream", "assreaming", "asstattoo", "asswipe", "badass", "bareass", "bastard", "bastards", "batshit", "beeatch", "beeotch", "beeyotch", "beeyotches", "bejesus", "big-ass", "bigass", "bitch", "bitchboss", "bitches", "bitchey", "bitchin'", "bitchin`", "bitchin`.", "bitching", "bitchingly", "bitchy", "blue-fuck", "bluefuck", "bluefuckingbell", "body", "bosom", "bosoms", "bossbitch", "bull-sh--", "bull-shit", "bullsh--", "bullsh--.", "bullsh__", "bullsh__ing", "bullshit", "bullshitting", "bumfuck", "bumfucked", "butt-fucked", "candy-ass", "candyass", "chicken-shit", "chickenshit", "chrissake", "chrissakes", "christ", "cluster-fuck", "clusterfuck", "cocksucker", "cocksuckers", "crazy-ass", "crazyass", "cunt", "dammit", "damn", "damn-fool", "damnation", "damned", "damnedest", "damning", …]
+hideCaptions: false
+hideCaptionsWhenFiltered: undefined
+items: {filters: Array(363), hideCaptions: false, hideCaptionsWhenFiltered: false, pollInterval: 20, postMuteDelay: 0, …}
+muteDelay: undefined
+poll: undefined
+showCaptionsWhenFiltered: undefined
+this: Window
