@@ -8,8 +8,8 @@ var Profanityfilteringworker = /** @class */ (function () {
         this.isMuted = false;
         this.mutedCounter = 0;
         this.dirtyWords = StreamCleanWorker.NormalizeDirtyWords(dirtyWords || filter_1.Filter.DefaultFilterWords);
-        this.hideCaptions = hideCaptions;
-        this.hideCaptionsWhenFiltered = hideCaptionsWhenFiltered;
+       
+        
         this.pollInterval = pollInterval;
         this.showCaptionsWhenFiltered = showCaptionsWhenFiltered;
         this.filter = new filter_1.Filter(this.dirtyWords);
