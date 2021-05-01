@@ -9,3 +9,4 @@ ImportError: cannot import name 'joblib' from 'sklearn.externals' (C:\Users\faso
 [0.08686173]
 
 predict_prob(['go to hell, you scum'])
+predict_prob('slut'
