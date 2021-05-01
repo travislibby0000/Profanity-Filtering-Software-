@@ -32,7 +32,7 @@ export default class BookmarkletFilter extends Filter {
   processMutationTarget: boolean;
   processNode: (node: HTMLElement | Document | ShadowRoot, wordlistId: number, stats?: boolean) => void;
   shadowObserver: MutationObserver;
-Mute just one profanity word (Webfilter: Audio Bleep)
+  Mute tab: mute just one profanity word (Webfilter: Audio Bleep)
 
 
   constructor() {
@@ -116,7 +116,7 @@ Mute just one profanity word (Webfilter: Audio Bleep)
           }
           this.audio.clean(mutation.target, supported);
         } else if (rule.simpleUnmute && this.audio.muted && !mutation.target.parentElement) {
-          // Check for removing a filtered subtitle (no parent)
+          // Check for *** a filtered subtitle (no parent)
           if (this.audio.lastFilteredText && this.audio.lastFilteredText.includes(mutation.target.textContent)) {
             this.audio.unmute(rule);
           }
@@ -183,7 +183,7 @@ Mute just one profanity word (Webfilter: Audio Bleep)
   cleanPage() {
     this.cfg = new WebConfig(config);
     this.domain = Domain.byHostname(this.hostname, this.cfg.domains);
-    this.cfg.muteMethod = Constants.MuteMethods.Video; // Bookmarklet: Force video volume mute method
+    this.cfg.muteMethod = Constants.MuteMethods.Video; // Bookmarklet: Force video volume bleeped/muted method
 
     // Use domain-specific settings
     const message: Message = { disabled: (this.cfg.enabledDomainsOnly && !this.domain.enabled) || this.domain.disabled };
@@ -194,7 +194,7 @@ Mute just one profanity word (Webfilter: Audio Bleep)
     if (this.domain.wordlistId !== undefined) { this.wordlistId = this.domain.wordlistId; }
     if (this.domain.audioWordlistId !== undefined) { this.audioWordlistId = this.domain.audioWordlistId; }
 
-    // Detect if we should mute audio for the current page
+    // Detect if we should mute/bleeped audio for the current page
     if (this.cfg.muteAudio) {
       this.audio = new WebAudio(this);
       this.mutePage = this.audio.supportedPage;
