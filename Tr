@@ -33,7 +33,7 @@ export default class BookmarkletFilter extends Filter {
   processNode: (node: HTMLElement | Document | ShadowRoot, wordlistId: number, stats?: boolean) => void;
   shadowObserver: MutationObserver;
   Mute tab: mute just one profanity word (Webfilter: Audio Bleep)
-
+  _____ edit English subtitles with this _____
 
   constructor() {
     super();
