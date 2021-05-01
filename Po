@@ -6,3 +6,6 @@ from .profanity_check import predict, predict_prob
 File "C:\Users\fasol\AppData\Local\Programs\Python\Python38\lib\site-packages\profanity_check\profanity_check.py", line 3, in 
 from sklearn.externals import joblib
 ImportError: cannot import name 'joblib' from 'sklearn.externals' (C:\Users\fasol\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\externals_init_.py)
+[0.08686173]
+
+predict_prob(['go to hell, you scum'])
