@@ -1,6 +1,8 @@
 {
   // Required
   "manifest_version": 3,
+  
+  
   "name": "My Extension",
   "version": "versionString",
 
