@@ -1,4 +1,3 @@
-manifest.json
 "content_scripts": [
   {
     "matches": [
