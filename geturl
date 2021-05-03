@@ -1,4 +1,4 @@
-() => {...}
+
 ()geturl (path: =>string): string{...}
 requestUpdateCheck(callback: function): void
 "onUpdateAvailable.addListener(listener: function)
