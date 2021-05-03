@@ -1,5 +1,5 @@
-[
-  {
+{
+  
     'repeat(5, 10)': {
       _id: '{{objectId()}}',
       index: '{{index()}}',
