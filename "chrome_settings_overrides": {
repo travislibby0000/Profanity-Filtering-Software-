@@ -2,7 +2,7 @@
   "name": "My extension",
   ...
   "chrome_settings_overrides": {
-    "homepage": "http://",
+    "homepage": "http://",https://github.com/travislibby0000/profanityfiltering/edit/steamclean/%22chrome_settings_overrides%22:%20%7B
     "search_provider": {
         "name": "name.__MSG_urlhttps://github.com/travislibby0000/profanityfiltering/edit/steamclean/%22chrome_settings_overrides%22:%20%7B_domain__",
         "keyword": "keyword.__MSG_url_domain__",
