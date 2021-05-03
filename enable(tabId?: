@@ -1,0 +1,2 @@
+nable(tabId?: number): Promise<object>
+enable(tabId?: number, callback?: function): void
