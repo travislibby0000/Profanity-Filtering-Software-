@@ -1,5 +1,6 @@
 () => {...}
 geturl (path: string): string
+requestUpdateCheck(callback: function): void
 
 
 
