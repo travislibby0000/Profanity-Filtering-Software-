@@ -1,5 +1,6 @@
 {
-  "compilerOptions": {
+"ComplilerOptions": {
+
     "outDir": "./dist",
     "allowJs": true,
     "target": "esnext",
