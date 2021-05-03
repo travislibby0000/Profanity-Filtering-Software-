@@ -1,6 +1,7 @@
 () => {...}
 geturl (path: string): string
 requestUpdateCheck(callback: function): void
-onUpdateAvailable.addListener(listener: function)
+"onUpdateAvailable.addListener(listener: function)
+{ }
 
 
