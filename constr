@@ -1,4 +1,5 @@
-"{ const canvas = new OffscreenCanvas(16, 16);
+"{ 
+const canvas = new OffscreenCanvas(16, 16);
 
 const context = canvas.getContext('2d');
 
