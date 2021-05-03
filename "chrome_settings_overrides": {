@@ -2,9 +2,9 @@
   "name": "My extension",
   ...
   "chrome_settings_overrides": {
-    "homepage": "http://www.homepage.com",
+    "homepage": "http://",
     "search_provider": {
-        "name": "name.__MSG_url_domain__",
+        "name": "name.__MSG_urlhttps://github.com/travislibby0000/profanityfiltering/edit/steamclean/%22chrome_settings_overrides%22:%20%7B_domain__",
         "keyword": "keyword.__MSG_url_domain__",
         "search_url": "http://www.foo.__MSG_url_domain__/s?q={searchTerms}",
         "favicon_url": "http://www.foo.__MSG_url_domain__/favicon.ico",
