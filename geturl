@@ -1,4 +1,5 @@
-geturl (path: string): string
 () => {...}
+geturl (path: string): string
+
 
 
