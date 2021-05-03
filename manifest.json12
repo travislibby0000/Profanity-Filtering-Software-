@@ -1,6 +1,6 @@
 {
   // Required
-  "manifest_version": 3,
+  " manifest_version ": 3,
   
   
   "name": "My Extension",
