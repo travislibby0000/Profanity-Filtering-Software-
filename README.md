@@ -1,6 +1,23 @@
-# profanityfiltering
-https://travislibby0000.github.io/TravisLibby/
+ Advanced Profanity Filter  
+Whitelist
 
-"chrome://extensions/?id=fdhfbcegmpgcbcfpifbihkhonohaiiod",
-"typescript", "English subtitles",
+Add, or update existing...
+(* Case-sensitive)
+Word/Phrase
+
+ Case-insensitive(doghouse: Don't filter "DogHouse")
+ Case-sensitive(Doghouse: Don't filter "Doghouse")
+ 
+Wordlists 
+
+Wordlist 1
+Name
+Wordlist 1
+ 
+Default Text Wordlist
+
+All words
+Default Audio Wordlist
+
+All words
 
