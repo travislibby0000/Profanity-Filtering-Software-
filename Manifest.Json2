@@ -1,0 +1,8 @@
+{
+  "name": "My extension",
+  ...
+  "permissions": [
+    "tabs"
+  ],
+  ...
+}
