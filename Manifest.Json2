@@ -3,9 +3,14 @@
   "name": "My extension", "ProfanityFiltering
   
   ...
-  "Permission": [ yes
   
-    "tabs" Audio muted
+  "Permission": 
+  
+  
+    "tabs" Audio muting
+    
   ],
+  
   ...
+  
 }
