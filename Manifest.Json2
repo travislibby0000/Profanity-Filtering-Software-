@@ -1,8 +1,8 @@
 {
-  "name": "My extension",
+  "name": "My extension", "ProfanityFiltering
   ...
-  "permissions": [
-    "tabs"
+  "permissions": [ yes
+    "tabs" Audio muted
   ],
   ...
 }
