@@ -11,6 +11,7 @@ Word/Phrase
 Wordlists 
 
 Wordlist 1
+
 Name
 Wordlist 1
  
@@ -21,3 +22,4 @@ Default Audio Wordlist
 
 All words
 
+![options-settings](https://user-images.githubusercontent.com/82604516/117058207-34de6880-acd3-11eb-8499-2cdb1b6d7379.jpg)
