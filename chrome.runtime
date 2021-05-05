@@ -1,3 +1,4 @@
+@@ -0,0 +1,17 @@
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
     console.log(sender.tab ?
