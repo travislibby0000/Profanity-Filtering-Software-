@@ -1,5 +1,5 @@
-@@ -0,0 +1,8 @@
-Chrome.runtime.sendMessage({greeting: "hello"}, function(response) {
+
+ -0,0 +1,8 @@Chrome.runtime.sendMessage({greeting: "hello"}, function(response) {
   console.log(response.farewell);
 });
 chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
@@ -7,3 +7,4 @@ chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
     console.log(response.farewell);
   });
   }
+@@ -0,0 +1,8 @@
