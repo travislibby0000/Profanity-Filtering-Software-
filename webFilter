@@ -1,4 +1,5 @@
 import Constants from './lib/constants';
+@@ -0,0 +1,918 @@
 import WebFilter from './webFilter';
 import BookmarkletFilter from './bookmarkletFilter';
 import WebAudioSites from './webAudioSites';
