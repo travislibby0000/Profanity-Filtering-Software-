@@ -1,2 +1,0 @@
-profanity filtering muted
-
