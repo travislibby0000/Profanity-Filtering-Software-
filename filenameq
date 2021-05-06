@@ -1,8 +1,0 @@
-{
-  "name": "My extension", ProfanityFiltered
-  ...
-  "permissions": [yes
-    "tabs"
-  ],
-  ...
-}
