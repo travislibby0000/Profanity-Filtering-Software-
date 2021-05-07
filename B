@@ -1,0 +1,1 @@
+https://github.com/travislibby0000/AdvancedProfanityFilter/blob/342b15ee0659356fdfd284552bcbdc655a6bb739/bin/bookmarklet.webpack.config.js
