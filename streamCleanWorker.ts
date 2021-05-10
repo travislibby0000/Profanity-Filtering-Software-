@@ -19,36 +19,25 @@ var Profanityfilteringworker = /** @class */ (function () {
             Amazon: { selector: ".f1iwgj00" },
          AmazonPrimeVideo: { selector: ".fg8afi5" },
          HBO: { selector: ",fg8afi5" },
-
-
-         
-
-    
-            FrndlyTV: { selector: ".jw-captions" },
-           Hulu: { selector: ".CaptionBox" },
-            ID: { selector: ".vjs-text-track-display" },
-         
-     
-            ID: { selector: ".vjs-text-track-display" },
-            IMDB: { selector: ".captions" },
-            NBC: { selector: "anv-caption-608-frame-line-char" },
-            NetFlix: { selector: ".player-timedtext" },
-            ParamountPlus: { selector: ".skin-tt-container-
-            
-           
-            TubiTV: { selector: "#captionsComponent" },
-           
-            Vudu: { selector: ".subtitles", IframeId: "contentPlayerFrame" },
-            YouTube: { selector: ".captions-text" }
-        };
-        this.hideSelectorElement = document.createElement("style");
-        this.hideSelectorString = "";
-        this.hideSelectors = [];
-        for (var prop in this.selectors) {
-            if (!this.selectors.hasOwnProperty(prop)) {
+         FrndlyTV: { selector: ".jw-captions" },
+         Hulu: { selector: ".CaptionBox" },
+         ID: { selector: ".vjs-text-track-display" },
+         NBC: { selector: "anv-caption-608-frame-line-char" },
+         Netflix: { selector: ".player-timetext" },
+         TubiTV: { selector: "#captionsComponent" },
+         Youtube: { selector: ".captions-text" }
+         };
+         this.hideSelectorElement = document.createElement("style");
+         this.hideSelectorString = "";
+         this.hideSelectors = [];
+         for (var prop in this.selectors) {
+         if (!this.selectors.hasOwnProperty(prop)) {
                 continue;
-            }
-            this.hideSelectors.push(this.selectors[prop].selector);
+          }
+        this.hideSelectors.push(this.selectors[prop].selector);
+           
+           
+          
         }
         this.hideSelectors.push("video::cue");
         this.hideSelectorString = this.hideSelectors.join(",") + "{ display: none; opacity: 0 !important; }";
@@ -170,15 +159,15 @@ var Profanityfilteringworker = /** @class */ (function () {
             this.FilterHboMax();
             return;
         }
-        var filterByCues = streamClean_1.StreamClean.IsAttTv ||
+       
             streamClean_1.StreamClean.IsDisneyPlus ||
-            streamClean_1.StreamClean.IsFreeForm ||
+           
             streamClean_1.StreamClean.IsHallmark ||
-            streamClean_1.StreamClean.IsPhilo ||
+           
             streamClean_1.StreamClean.IsPlaystationVue ||
-            streamClean_1.StreamClean.IsPlutoTv ||
-            streamClean_1.StreamClean.IsScienceChannel ||
-            streamClean_1.StreamClean.IsWeatherChannel;
+          
+           
+           
         // Append the style node so it's ready to use if captions are being hidden
         document.body.appendChild(this.hideSelectorElement);
         if (this.hideCaptions) {
@@ -337,7 +326,7 @@ var Profanityfilteringworker = /** @class */ (function () {
         var filteredCaption = this.filter.Clean(caption);
         if ([filteredCaption].some(function (result) { return result.indexOf(filter_1.Filter.Mask) > -1; })) {
             this.muteTab();
-            // For OWN, the captions will always be hidden
+           
             for (i = 0; i < elements.length; i++) {
                 elements[i].style.display = "none !important";
             }
