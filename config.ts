@@ -25,7 +25,7 @@ export default class Config {
   static readonly _allWordlists = ['All words'];
 
   static readonly _defaults = {
-    censorCharacter: '*',
+    censorCharacter: '_',
     censorFixedLength: 0,
     defaultSubstitution: 'censored',
     defaultWordMatchMethod: Constants.MatchMethods.Exact,
@@ -47,8 +47,8 @@ export default class Config {
   };
 
   static readonly _defaultWords: { [key: string]: WordOptions } = {
-    'ass': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: true, separators: false, sub: 'butt' },
-    'asses': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: false, separators: false, sub: 'butts' },
+    'ass': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: true, separators: false, sub: '_____' },
+    'asses': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: false, separators: false, sub: '_____' },
     'asshole': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: false, sub: 'jerk' },
     'badass': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: true, sub: 'cool' },
     'bastard': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: false, sub: 'idiot' },
@@ -58,9 +58,9 @@ export default class Config {
     'dammit': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: false, separators: true, sub: 'dangit' },
     'damn': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: false, separators: false, sub: 'dang' },
     'dumbass': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: false, sub: 'idiot' },
-    'fag': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: true, separators: false, sub: 'gay' },
-    'faggot': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: false, sub: 'gay' },
-    'fags': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: true, separators: false, sub: 'gays' },
+    'fag': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: true, separators: false, sub: '___' },
+    'faggot': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: false, sub: '___' },
+    'fags': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: true, separators: false, sub: '____' },
     'fuck': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: true, sub: 'freak' },
     'goddammit': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: true, sub: 'dangit' },
     'hell': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: false, separators: false, sub: 'heck' },
@@ -72,13 +72,15 @@ export default class Config {
     'pissed': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: false, sub: 'ticked' },
     'pussies': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: true, separators: false, sub: 'softies' },
     'pussy': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: true, separators: false, sub: 'softie' },
-    'shit': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: false, sub: 'crap' },
-    'slut': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: false, sub: 'tramp' },
+    'shit': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: false, sub: '____' },
+    'slut': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: false, sub: '_____' },
     'tits': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: false, sub: 'chest' },
     'twat': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: true, separators: false, sub: 'dumbo' },
     'twats': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: true, separators: false, sub: 'dumbos' },
-    'whore': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: false, sub: 'tramp' },
+    'whore': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: false, sub: '____' },
   };
+    'pussycat': { lists: [], matchMethod: Constants.MatchMethods.Whole, repeat: true, separators: false, sub: ________' },
+
 
   constructor(data: Record<string, unknown> = {}) {
     Object.assign(this, Config._defaults, data);
