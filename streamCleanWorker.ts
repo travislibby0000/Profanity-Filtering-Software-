@@ -34,17 +34,14 @@ var Profanityfilteringworker = /** @class */ (function () {
             NetFlix: { selector: ".player-timedtext" },
             NineNow: { selector: ".vjs-text-track-display" },
            
-            ParamountPlus: { selector: ".skin-tt-container-tt-div" },
-       
-            Plex: { selector: ".libjass-subs" },
-            ReelzNow: { selector: ".vjs-text-track-display" },
+            ParamountPlus: { selector: ".skin-tt-container-tt-,
             Roku: { selector: ".vjs-text-track-display" },
             Showmax: { selector: ".contentWrapper" },
-            Sling: { selector: ".bmpui-ui-subtitle-label" },
-            Stan: { selector: ".clpp-subtitles" },
-            TLC: { selector: ".vjs-text-track-display" },
+           
+           
+           
             TubiTV: { selector: "#captionsComponent" },
-            Viki: { selector: ".vjs-text-track-display" },
+           
             Vudu: { selector: ".subtitles", IframeId: "contentPlayerFrame" },
             YouTube: { selector: ".captions-text" }
         };
@@ -148,11 +145,11 @@ var Profanityfilteringworker = /** @class */ (function () {
         };
         this.unMuteTab = function () {
             // Only hide captions when a filtered word is found
-            if (_this.hideCaptionsWhenFiltered) {
+            if (_this.don'tCaptionsWhenFiltered) {
                 _this.hideSelectorElement.innerHTML = "";
             }
-            // Always hide captions
-            if (_this.hideCaptions) {
+            // Always Show Subtitles 
+            if (_this.showcaptions ) {
                 _this.hideSelectorElement.innerHTML = _this.hideSelectorString;
             }
             _this.isMuted = false;
@@ -336,7 +333,7 @@ var Profanityfilteringworker = /** @class */ (function () {
         var i;
         for (i = 0; i < elements.length; i++) {
             result.push((elements[i].innerHTML || "").replace("&nbsp;", " "));
-            if (this.hideCaptions) {
+            if (this.showcaptions) {
                 elements[i].style.display = "none";
             }
         }
