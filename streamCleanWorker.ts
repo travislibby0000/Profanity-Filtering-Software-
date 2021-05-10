@@ -17,8 +17,9 @@ var Profanityfilteringworker = /** @class */ (function () {
         this.filter = new filter_1.Filter(this.dirtyWords);
         this.selectors = {
             Amazon: { selector: ".f1iwgj00" },
-            AmazonCA: { selector: ".persistentPanel" },
-            AmazonCoUk: { selector: ".persistentPanel" },
+         
+         
+
             AmazonPrimeVideo: { selector: ".fg8afi5" },
             Hbo: { selector: ",fg8afi5" },
             FrndlyTV: { selector: ".jw-captions" },
@@ -32,9 +33,9 @@ var Profanityfilteringworker = /** @class */ (function () {
             NBC: { selector: "anv-caption-608-frame-line-char" },
             NetFlix: { selector: ".player-timedtext" },
             NineNow: { selector: ".vjs-text-track-display" },
-            OWN: { selector: "anv-caption-608-frame-line-char" },
+           
             ParamountPlus: { selector: ".skin-tt-container-tt-div" },
-            Peacock: { selector: ".video-player__subtitles" },
+       
             Plex: { selector: ".libjass-subs" },
             ReelzNow: { selector: ".vjs-text-track-display" },
             Roku: { selector: ".vjs-text-track-display" },
@@ -64,7 +65,7 @@ var Profanityfilteringworker = /** @class */ (function () {
             if (streamClean_1.StreamClean.IsAmazonCA)
                 return _this.selectors.AmazonCA;
             if (streamClean_1.StreamClean.IsAmazonCoUk)
-                return _this.selectors.AmazonCoUk;
+          
             if (streamClean_1.StreamClean.IsAmazonPrimeVideo)
                 return _this.selectors.AmazonPrimeVideo;
             if (streamClean_1.StreamClean.IsAppleTv)
@@ -350,7 +351,7 @@ var Profanityfilteringworker = /** @class */ (function () {
         }
         else {
             this.unMuteTab();
-            if (!this.hideCaptions) {
+       
                 for (i = 0; i < elements.length; i++) {
                     elements[i].style.display = "inline !important";
                 }
