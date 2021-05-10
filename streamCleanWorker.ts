@@ -1,6 +1,6 @@
 { 
     @@ -0,0 +1,392 @@
-"use strict";
+"use strict"; 
 Object.defineProperty(exports, "__esModule", { value: true });
 var filter_1 = require("./filter");
 var profanityfiltering_1 = require("./profanityfiltering");
@@ -17,28 +17,24 @@ var Profanityfilteringworker = /** @class */ (function () {
         this.filter = new filter_1.Filter(this.dirtyWords);
         this.selectors = {
             Amazon: { selector: ".f1iwgj00" },
-         
+         AmazonPrimeVideo: { selector: ".fg8afi5" },
+         HBO: { selector: ",fg8afi5" },
+
+
          
 
-            AmazonPrimeVideo: { selector: ".fg8afi5" },
-            Hbo: { selector: ",fg8afi5" },
+    
             FrndlyTV: { selector: ".jw-captions" },
            Hulu: { selector: ".CaptionBox" },
             ID: { selector: ".vjs-text-track-display" },
          
-    
-
+     
             ID: { selector: ".vjs-text-track-display" },
             IMDB: { selector: ".captions" },
             NBC: { selector: "anv-caption-608-frame-line-char" },
             NetFlix: { selector: ".player-timedtext" },
-            NineNow: { selector: ".vjs-text-track-display" },
-           
-            ParamountPlus: { selector: ".skin-tt-container-tt-,
-            Roku: { selector: ".vjs-text-track-display" },
-            Showmax: { selector: ".contentWrapper" },
-           
-           
+            ParamountPlus: { selector: ".skin-tt-container-
+            
            
             TubiTV: { selector: "#captionsComponent" },
            
