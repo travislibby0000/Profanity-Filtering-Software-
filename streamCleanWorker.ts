@@ -44,28 +44,16 @@ var Profanityfilteringworker = /** @class */ (function () {
         var getCaptionSelector = function () {
             if (streamClean_1.StreamClean.IsAmazon)
                 return _this.selectors.Amazon;
-            if (streamClean_1.StreamClean.IsAmazonCA)
-                return _this.selectors.AmazonCA;
-            if (streamClean_1.StreamClean.IsAmazonCoUk)
+          
+               
           
             if (streamClean_1.StreamClean.IsAmazonPrimeVideo)
                 return _this.selectors.AmazonPrimeVideo;
-            if (streamClean_1.StreamClean.IsAppleTv)
-                return _this.selectors.AppleTv;
-            if (streamClean_1.StreamClean.IsCharterSpectrum)
-                return _this.selectors.CharterSpectrum;
-            if (streamClean_1.StreamClean.IsCrackle)
-                return _this.selectors.Crackle;
-            if (streamClean_1.StreamClean.IsDiscoveryLife)
-                return _this.selectors.DiscoveryLife;
-            if (streamClean_1.StreamClean.IsDishAnywhere)
-                return _this.selectors.DishAnywhere;
-            if (streamClean_1.StreamClean.IsEpix)
-                return _this.selectors.Epix;
-            if (streamClean_1.StreamClean.IsFrndlyTV)
+          
+               
+             1.StreamClean.IsFrndlyTV)
                 return _this.selectors.FrndlyTV;
-            if (streamClean_1.StreamClean.IsFuboTV)
-                return _this.selectors.FuboTV;
+           
             if (streamClean_1.StreamClean.IsHallmarkMoviesNow)
                 return _this.selectors.HallmarkMoviesNow;
             if (streamClean_1.StreamClean.IsHulu)
@@ -78,34 +66,9 @@ var Profanityfilteringworker = /** @class */ (function () {
                 return _this.selectors.NBC;
             if (streamClean_1.StreamClean.IsNetFlix)
                 return _this.selectors.NetFlix;
-            if (streamClean_1.StreamClean.IsNineNow)
-                return _this.selectors.NineNow;
-            if (streamClean_1.StreamClean.IsOWN)
-                return _this.selectors.OWN;
-            if (streamClean_1.StreamClean.IsParamountPlus)
-                return _this.selectors.ParamountPlus;
-            if (streamClean_1.StreamClean.IsPeacock)
-                return _this.selectors.Peacock;
-            if (streamClean_1.StreamClean.IsPlex)
-                return _this.selectors.Plex;
-            if (streamClean_1.StreamClean.IsReelzNow)
-                return _this.selectors.ReelzNow;
-            if (streamClean_1.StreamClean.IsRoku)
-                return _this.selectors.Roku;
-            if (streamClean_1.StreamClean.IsShowmax)
-                return _this.selectors.Showmax;
-            if (streamClean_1.StreamClean.IsSling)
-                return _this.selectors.Sling;
-            if (streamClean_1.StreamClean.IsStan)
-                return _this.selectors.Stan;
-            if (streamClean_1.StreamClean.IsTLC)
-                return _this.selectors.TLC;
-            if (streamClean_1.StreamClean.IsTubiTV)
-                return _this.selectors.TubiTV;
-            if (streamClean_1.StreamClean.IsViki)
-                return _this.selectors.Viki;
-            if (streamClean_1.StreamClean.IsVudu)
-                return _this.selectors.Vudu;
+           
+      
+           
             if (streamClean_1.StreamClean.IsYouTube)
                 return _this.selectors.YouTube;
             return "";
