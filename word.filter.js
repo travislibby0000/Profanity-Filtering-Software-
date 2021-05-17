@@ -43,150 +43,150 @@ bitchy boolean
 bodies boolean 
 body boolean   
 bosom boolean  
-breast  
-breasts
-bullshit
-bullshitting
-butt-fucked
-candy-ass
-chicken-shit
-chickenshit
-christsake
-christ
-cocksucker	
-cocksuckers
-crazy-ass
-crazyass
-cunt    
-damnnit
-damnit
-damn
-damn-fool	
-damn fool
-damnation
-damned
-damnedest
-damning
-dangit
-dead-ass
-deadass
-dick
-dick-face
-dick-wad
-dickbag
-dick
-dickfoot
-dickhead
-dickheads 
-dicks   
-dickwad
-dickweed
-dipshit  
-dipshits
-dopeass
-dumbass
-dumbass
-dumbasses
-dumb-shit
-fakeass
-fatass
-fuck 
-fuck-up
-fuck-ass
-fuckbag
-fuckass	
-fucked
-fuckedup	
-fucker	
-fuckers   
-fucking 
-fuckup
-fuckyou
-godforsaken 
-goddamn
-goddamned   
-goddammit
-grabass
-grownass  
-halfass
-half-ass 
-half-assed
-hardass
-hell
-hellbent 
-hellish
-hellhole
-hellraiser
-hellyeah
-holy
-hotshit 
-holy shit 
-holy!  
-horseshit
-hugeass
-hot-shit	
-huge-ass
-jackass
-jackasses
-Jesus Christ 
-Jesus
-kickass
-kickasses
-lameass 
-motherfuck
-motherfucking
-motherfucked
-nastyass
-niggers
-nigger
-nigga
-pain in the ass
-painintheass
-penis
-penises
-piss
-pissed 
-pisses
-punk ass
-punk-ass
-pussy
-pussycat
-scared-shit
-sexyass
-sexy
-shit-ass
-shit-fuck
-shitfuck
-shitass
-shitbag
-shit
-shithead
-shitheads
-shithole
-shitholes
-shithot
-shithouse
-shitless
-shitloads
-shitload
-sickass
-smartass
-son of a bitch
-sob
-sorry-ass
-sorryass
-stupidass
-sweet-ass
-sweetass
-tight-ass
-tightass
-tiny-ass
-tinyass
-weak-ass
-weak-assed
-weakass
-weird-ass
-weirdass 
+breast Boolean 
+breasts Boolean 
+bullshit Boolean
+bullshitting Boolean 
+butt-fucked Boolean 
+candy-ass Boolean 
+chicken-shit Boolean 
+chickenshit Boolean 
+christsake Boolean 
+christ Boolean 
+cocksucker Boolean 
+cocksuckers Boolean 
+crazy-ass Boolean 
+crazyass Boolean 
+cunt Boolean 
+damnnit Boolean 
+damnit Boolean 
+damn Boolean 
+damn-fool Boolean 
+damn fool Boolean 
+damnation Boolean 
+damned Boolean 
+damnedest Boolean 
+damning Boolean 
+dangit Boolean 
+dead-ass Boolean 
+deadass Boolean 
+dick Boolean 
+dick-face Boolean 
+dick-wad Boolean 
+dickbag Boolean 
+dick Boolean 
+dickfoot Boolean 
+dickhead Boolean 
+dickheads Boolean 
+dicks Boolean 
+dickwad Boolean 
+dickweed Boolean 
+dipshit Boolean 
+dipshits Boolean 
+dopeass Boolean 
+dumbass Boolean 
+dumbass Boolean 
+dumbasses Boolean 
+dumb-shit Boolean 
+fakeass Boolean 
+fatass Boolean 
+fuck Boolean 
+fuck-up Boolean 
+fuck-ass Boolean 
+fuckbag Boolean 
+fuckass	Boolean 
+fucked Boolean 
+fuckedup Boolean 
+fucker Boolean 
+fuckers Boolean 
+fucking Boolean 
+fuckup Boolean 
+fuckyou Boolean 
+godforsaken Boolean 
+goddamn Boolean 
+goddamned Boolean 
+goddammit Boolean 
+grabass Boolean 
+grownass Boolean 
+halfass Boolean 
+half-ass Boolean 
+half-assed Boolean 
+hardass Boolean 
+hell Boolean 
+hellbent Boolean 
+hellish Boolean 
+hellhole Boolean 
+hellraiser Boolean 
+hellyeah Boolean 
+holy Boolean 
+hotshit Boolean 
+holy shit Boolean 
+holy! Boolean   
+horseshit Boolean 
+hugeass Boolean 
+hot-shit Boolean 
+huge-ass Boolean 
+jackass Boolean 
+jackasses Boolean 
+Jesus Christ Boolean 
+Jesus Boolean 
+kickass Boolean 
+kickasses Boolean 
+lameass Boolean 
+motherfuck Boolean 
+motherfucking Boolean 
+motherfucked Boolean 
+nastyass Boolean 
+niggers Boolean 
+nigger Boolean 
+nigga Boolean 
+pain in the ass Boolean 
+painintheass Boolean 
+penis Boolean 
+penises Boolean 
+piss Boolean 
+pissed Boolean 
+pisses Boolean 
+punk ass Boolean 
+punk-ass Boolean 
+pussy Boolean 
+pussycat Boolean 
+scared-shit Boolean 
+sexyass Boolean 
+sexy Boolean 
+shit-ass Boolean 
+shit-fuck Boolean 
+shitfuck Boolean 
+shitass Boolean 
+shitbag Boolean 
+shit Boolean 
+shithead Boolean 
+shitheads Boolean 
+shithole Boolean 
+shitholes Boolean 
+shithot Boolean 
+shithouse Boolean 
+shitless Boolean 
+shitloads Boolean 
+shitload Boolean 
+sickass Boolean 
+smartass Boolean 
+son of a bitch Boolean 
+sob Boolean 
+sorry-ass Boolean 
+sorryass Boolean 
+stupidass Boolean 
+sweet-ass Boolean 
+sweetass Boolean 
+tight-ass Boolean 
+tightass Boolean 
+tiny-ass Boolean 
+tinyass Boolean 
+weak-ass Boolean 
+weak-assed Boolean 
+weakass Boolean 
+weird-ass Boolean 
+weirdass Boolean 
  
  
 
