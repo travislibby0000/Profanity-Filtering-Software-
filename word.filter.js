@@ -1,219 +1,134 @@
 {
-"annoyingass", word filter be muted
+ Word filtering in the Browser Tab button
+anus boolean
+arse-hole boolean
+arsehole boolean
+ass boolean
+ass-clown boolean
+ass-clowns boolean
+ass-guard boolean
+ass-hole boolean
+ass-holes boolean
+ass-kickin boolean
+ass-kicking boolean
+ass-kissingass-lick boolean
+ass-ream boolean
+ass-reaming boolean
+ass-whipe boolean
+ass-wipe boolean
+assed boolean
+asses boolean
+assface boolean
+assguard boolean
+asshole boolean
+assholes boolean   
+asskicking boolean  
+asslick boolean  
+asswipe boolean  
+badass boolean  
+bareass boolean  
+bastard boolean  
+bastards boolean  
+bejesus boolean  
+big-ass boolean  
+bigass boolean  
+bitch boolean 
+bitchboss boolean 
+bitches boolean 
+bitchey boolean 
+bitchin' boolean 
+bitching boolean 
+bitchingly boolean 
+bitchy boolean 
+bodies boolean 
+body boolean   
+bosom boolean  
+breast  
+breasts
+bullshit
+bullshitting
+butt-fucked
+candy-ass
+chicken-shit
+chickenshit
+christsake
+christ
+cocksucker	
+cocksuckers
+crazy-ass
+crazyass
+cunt    
+damnnit
+damnit
+damn
+damn-fool	
+damn fool
+damnation
+damned
+damnedest
+damning
+dangit
+dead-ass
+deadass
+dick
+dick-face
+dick-wad
+dickbag
+dick
+dickfoot
+dickhead
+dickheads 
+dicks   
+dickwad
+dickweed
+dipshit  
+dipshits
+dopeass
+dumbass
+dumbass
+dumbasses
+dumb-shit
+fakeass
+fatass
+fuck 
+fuck-up
+fuck-ass
+fuckbag
+fuckass	
+fucked
+fuckedup	
+fucker	
+fuckers   
+fucking 
+fuckup
+fuckyou
+godforsaken 
+goddamn
+goddamned   
+goddammit
+grabass
+grownass  
+halfass
+half-ass 
+half-assed
+hardass
+hell
+hellbent 
+hellish
+hellhole
+hellraiser
+hellyeah
+holy
+hotshit 
+holy shit 
+holy!  
+horseshit
+hugeass
+hot-shit	
+huge-ass	
+	
+
  
-anus word 
-    "anus",
-    "apeshit",
-    "arse",
-    "arse-hole",
-    "arsehole",
-    "ass",
-    "ass-clown",
-    "ass-clowns",
-    "ass-guard",
-    "ass-hole",
-    "ass-holes",
-    "ass-kickin",
-    "ass-kicking",
-    "ass-kissing",
-    "ass-lick",
-    "ass-ream",
-    "ass-reaming",
-    "ass-whipe",
-    "ass-wipe",
-    "assed",
-    "asses",
-    "assface",
-    "assguard",
-    "asshold",
-    "asshole",
-    "assholes",
-    "assholey",
-    "assholic",
-    "assicle",
-    "asskickin",
-    "asskicking",
-    "asskissing",
-    "assless",
-    "asslick",
-    "assream",
-    "assreaming",
-    "asstattoo",
-    "asswipe",
-    "badass",
-    "bareass",
-    "bastard",
-    "bastards",
-    "batshit",
-    "beeatch",
-    "beeotch",
-    "beeyotch",
-    "beeyotches",
-    "bejesus",
-    "big-ass",
-    "bigass",
-    "bitch",
-    "bitchboss",
-    "bitches",
-    "bitchey",
-    "bitchin'",
-    "bitchin`",
-    "bitchin`.",
-    "bitching",
-    "bitchingly",
-    "bitchy",
-    "blue-fuck",
-    "bluefuck",
-    "bluefuckingbell",
-    "bodies",
-    "body",
-    "bosom",
-    "bossbitch",
-    "breast",
-    "breasts",
-    "bull-sh--",
-    "bull-shit",
-    "bullsh--",
-    "bullsh--.",
-    "bullsh__",
-    "bullsh__ing",
-    "bullshit",
-    "bullshitting",
-    "bumfuck",
-    "bumfucked",
-    "butt-fucked",
-    "candy-ass",
-    "candyass",
-    "chicken-shit",
-    "chickenshit",
-    "chrissake",
-    "chrissakes",
-    "christ",
-    "cluster-fuck",
-    "clusterfuck",
-    "cocksucker",
-    "cocksuckers",
-    "crazy-ass",
-    "crazyass",
-    "cunt",
-    "dammit",
-    "damn",
-    "damn-fool",
-    "damnation",
-    "damned",
-    "damnedest",
-    "damning",
-    "damnit",
-    "dangit",
-    "dayyayyam",
-    "dead-ass",
-    "deadass",
-    "dear lord",
-    "dick",
-    "dick-face",
-    "dick-wad",
-    "dickbag",
-    "dicked",
-    "dickface",
-    "dickfoot",
-    "dickhead",
-    "dickheads",
-    "dickish",
-    "dicks",
-    "dickwad",
-    "dickweed",
-    "dipshit",
-    "dipshits",
-    "dopeass",
-    "dumass",
-    "dumb-ass",
-    "dumb-asses",
-    "dumb-shit",
-    "dumbass",
-    "dumbasses",
-    "dumbshit",
-    "fake-ass",
-    "fakeass",
-    "fanfuckingtastic",
-    "fat ass",
-    "fatass",
-    "fu__",
-    "fuck",
-    "fuck-all",
-    "fuck-ass",
-    "fuck-head",
-    "fuck-up",
-    "fuck-ups",
-    "fuckable",
-    "fuckall",
-    "fuckass",
-    "fuckbag",
-    "fucked",
-    "fuckedup",
-    "fucker",
-    "fuckers",
-    "fuckery",
-    "fuckhead",
-    "fuckhead,",
-    "fuckin",
-    "fuckin'",
-    "fucking",
-    "fucking__",
-    "fuckinghate",
-    "fuckity",
-    "fucks",
-    "fucksight",
-    "fuckstick",
-    "fuckup",
-    "fuckups",
-    "fuckyou",
-    "geez",
-    "god",
-    "god forsaken",
-    "god-damn",
-    "god-damned",
-    "god-forsaken",
-    "godawful",
-    "goddam",
-    "goddammed",
-    "goddammit",
-    "goddamn",
-    "goddamned",
-    "goddamnedest",
-    "goddamnit",
-    "godforsaken",
-    "good lord",
-    "grab-ass",
-    "grabass",
-    "grown-ass",
-    "grownass",
-    "half-ass",
-    "half-assed",
-    "halfass",
-    "halfassing",
-    "hardass",
-    "hell",
-    "hell-bent",
-    "hell-raiser",
-    "hell-yeah",
-    "hellbent",
-    "hellhole",
-    "hellish",
-    "hellraiser",
-    "hells",
-    "hells-yeah",
-    "helluva",
-    "hellyeah",
-    "holy",
-    "holy moses",
-    "holy mother",
-    "holy shit",
-    "holy!",
-    "horseshit",
-    "hot-shit",
-    "hotshit",
-    "huge-ass",
-    "hugeass",
     "jack-ass",
     "jack-asses",
     "jackass",
