@@ -125,165 +125,70 @@ holy!
 horseshit
 hugeass
 hot-shit	
-huge-ass	
-	
-
+huge-ass
+jackass
+jackasses
+Jesus Christ 
+Jesus
+kickass
+kickasses
+lameass 
+motherfuck
+motherfucking
+motherfucked
+nastyass
+niggers
+nigger
+nigga
+pain in the ass
+painintheass
+penis
+penises
+piss
+pissed 
+pisses
+punk ass
+punk-ass
+pussy
+pussycat
+scared-shit
+sexyass
+sexy
+shit-ass
+shit-fuck
+shitfuck
+shitass
+shitbag
+shit
+shithead
+shitheads
+shithole
+shitholes
+shithot
+shithouse
+shitless
+shitloads
+shitload
+sickass
+smartass
+son of a bitch
+sob
+sorry-ass
+sorryass
+stupidass
+sweet-ass
+sweetass
+tight-ass
+tightass
+tiny-ass
+tinyass
+weak-ass
+weak-assed
+weakass
+weird-ass
+weirdass 
  
-    "jack-ass",
-    "jack-asses",
-    "jackass",
-    "jackasses",
-    "jesus",
-    "kickass",
-    "kissass",
-    "lame-ass",
-    "lameass",
-    "lard-ass",
-    "lardass",
-    "limp-dick",
-    "limpdick",
-    "long-ass",
-    "longass",
-    "lordy",
-    "loserwiseass",
-    "mother-fuck",
-    "mother-fucked",
-    "mother-fucker",
-    "motherfu__er",
-    "motherfuck",
-    "motherfucked",
-    "motherfucker",
-    "motherfucker's",
-    "motherfuckers",
-    "motherfuckin",
-    "motherfuckin'",
-    "motherfucking",
-    "nasty-ass",
-    "nastyass",
-    "nigger",
-    "niggers",
-    "numb-nut",
-    "numb-nuts",
-    "numbnut",
-    "numbnuts",
-    "o my lord",
-    "painintheass",
-    "penis",
-    "piddlyass",
-    "pieceofshit",
-    "piss",
-    "piss-poor",
-    "pissed",
-    "pisses",
-    "pissing",
-    "pisspoor",
-    "pissy",
-    "prefuck",
-    "prefucked",
-    "professionalass",
-    "punk-ass",
-    "punkass",
-    "pussy",
-    "pussycat",
-    "scared-shit",
-    "scared-shitless",
-    "scaredshit",
-    "sexyass",
-    "sh--",
-    "sh--.",
-    "sh--ing",
-    "sh--less",
-    "sh--tiest",
-    "sh--ty",
-    "sh__",
-    "shit",
-    "shit-ass",
-    "shit-bag",
-    "shit-fuck",
-    "shit-head",
-    "shit-heads",
-    "shit-kicker",
-    "shit-scared",
-    "shit__",
-    "shitass",
-    "shitbag",
-    "shitbird",
-    "shitface",
-    "shitfaced",
-    "shitfuck",
-    "shithead",
-    "shitheads",
-    "shitheel",
-    "shitheels",
-    "shithole",
-    "shitholes",
-    "shithot",
-    "shithouse",
-    "shitkicker",
-    "shitless",
-    "shitload",
-    "shitloads",
-
-"shitpot", "______",
-"shits", "_____",
-"shitscared", "_________",
-"shitshow", "*******",
-"shitstorm", "*********",
-"shitter", "*******",
-"shittiest", "********",
-"shittin", "*******",
-
-  
  
 
-    "shitting",
-    "shitton",
-    "shitty",
-    "shizz",
-    "shopbitch",
-    "sick-ass",
-    "slackass",
-    "smartass",
-    "smartassed",
-    "sombitch",
-    "sombitches",
-    "son of a",
-    "sonofabitch",
-    "sorry-ass",
-    "sorryass",
-    "spyfucker",
-    "sqaureass",
-    "stupidass",
-
-"sumabitch", "********"
-"sumbitch", "********",
-"superfucking", "______________",
-
-   
-
-    "superkickass",
-    "supersweetass",
-    "sweet-ass",
-    "sweetass",
-    "tearassing",
-    "tight-ass",
-    "tightass",
-    "tightassed",
-    "tiny-ass",
-    "tinyass",
-    "transfuckingatlantic!",
-    "tweedledumass",
-    "uglyass",
-    "unfuck",
-    "weak-ass",
-    "weak-assed",
-    "weakass",
-    "weakassed",
-    "weird-ass",
-    "weirdass",
-    "wholeass",
-    "whoopass",
-    "whupass",
-    "wise-ass",
-    "wiseass"
+ 
 ]
