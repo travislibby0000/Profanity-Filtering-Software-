@@ -1,5 +1,7 @@
-[
-    "annoyingass",
+{
+"annoyingass", word filter be muted
+ 
+anus word 
     "anus",
     "apeshit",
     "arse",
@@ -306,15 +308,19 @@
     "shitless",
     "shitload",
     "shitloads",
-    "shitpot",
-    "shits",
-    "shitscared",
-    "shitshow",
-    "shitstorm",
-    "shitter",
-    "shittiest",
-    "shittin",
-    "shittin'",
+
+"shitpot", "______",
+"shits", "_____",
+"shitscared", "_________",
+"shitshow", "*******",
+"shitstorm", "*********",
+"shitter", "*******",
+"shittiest", "********",
+"shittin", "*******",
+
+  
+ 
+
     "shitting",
     "shitton",
     "shitty",
@@ -333,9 +339,13 @@
     "spyfucker",
     "sqaureass",
     "stupidass",
-    "sumabitch",
-    "sumbitch",
-    "superfuckin'",
+
+"sumabitch", "********"
+"sumbitch", "********",
+"superfucking", "______________",
+
+   
+
     "superkickass",
     "supersweetass",
     "sweet-ass",
