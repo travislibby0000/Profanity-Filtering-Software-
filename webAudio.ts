@@ -34,7 +34,7 @@ export default class WebAudio {
   static readonly FillerConfig = {
     beep: {
       fileName: 'audio/beep.mp3',
-      volume: 0.2,
+      volume: 0.10,
     },
     crickets: {
       fileName: 'audio/crickets.mp3',
@@ -57,7 +57,7 @@ export default class WebAudio {
     this.cueRuleIds = [];
     this.enabledRuleIds = [];
     this.watcherRuleIds = [];
-    if (this.filter.extension) { this.fillerAudio = this.initFillerAudio(this.filter.cfg.fillerAudio); }
+    if (this.filter.extension) { this.AudioBleep = this.initBleepAudio(this.filter.cfg.CensorAudio); }
     this.lastFilteredNode = null;
     this.lastFilteredText = '';
     this.lastProcessedText = '';
@@ -318,22 +318,22 @@ export default class WebAudio {
     this.initDisplaySelector(rule);
   }
 
-  initFillerAudio(name: string = ''): HTMLAudioElement {
-    const fillerConfig = WebAudio.FillerConfig[name];
+  initCensorAudio(name: string = ''): HTMLAudioElement {
+    const fillerConfig = WebAudio.CensorConfig[name];
     if (fillerConfig) {
-      const url = chrome.runtime.getURL(fillerConfig.fileName);
-      const audioFiller = new Audio();
-      audioFiller.src = url;
-      audioFiller.loop = true;
-      if (fillerConfig.volume) { audioFiller.volume = fillerConfig.volume; }
-      if (fillerConfig.loopAfter) {
-        audioFiller.ontimeupdate = () => {
-          if (audioFiller.currentTime > fillerConfig.loopAfter) {
-            audioFiller.currentTime = 0;
+      const url = chrome.runtime.getURL(censorConfig.fileName);
+      const AudioCensor= new Audio();
+      AudioCensor.src = url;
+      AudioCensor.loop = true;
+      if (AudioCensor Config.volume) { audioFiller.volume = fillerConfig.volume; }
+      if (AudioCensor  Config.loopAfter) {
+        AudioCensor.ontimeupdate = () => {
+          if (audioBleep.currentTime > fillerConfig.loopAfter) {
+            audioBleep.currentTime = 0;
           }
         };
       }
-      return audioFiller;
+      return audioBleep;
     }
   }
 
