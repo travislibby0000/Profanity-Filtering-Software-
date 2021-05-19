@@ -1,5 +1,5 @@
 {
-  "name": "Profanity Filtering Muted",
+  "name": "Profanity Filtering Software ",
   "version": "2.18.0",
   "description": "A browser extension to filter profanity from webpages.",
   "main": "filter.js",
