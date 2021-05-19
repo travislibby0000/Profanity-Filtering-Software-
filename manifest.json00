@@ -1,4 +1,0 @@
- JSONObject resJb = JSONObject.fromObject(param);
- if (! resJb.containsKey ( "tcontent")) {// field format does not exist
-         return productResult("400", errorDatas);
- }
