@@ -1,6 +1,10 @@
 {
  Word filtering in the Browser Tab button
 anus boolean
+
+
+
+<url> www.hulu.com
 arse-hole boolean
 arsehole boolean
 ass boolean
