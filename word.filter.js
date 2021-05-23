@@ -5,11 +5,8 @@ anus boolean
 
 Web Page www.hulu.com
 
+  
 
-Url  
-WWW.Hulu.com
-
-WordFilter
 Boolean Anus
 Boolean Arsehole
 Boolean Ass
