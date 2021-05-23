@@ -5,6 +5,8 @@ import { formatNumber } from './lib/helper';
 import Logger from './lib/logger';
 const logger = new Logger();
 
+https://github.com/travislibby0000/Profanity-Filtering-Software-/blob/68a2e91bc702c10fea1113c33440332c75ffd91b/censor-beep-01.mp3
+
 const BackgroundStorage: BackgroundStorage = {
   tabs: {},
 };
