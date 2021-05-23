@@ -1,7 +1,0 @@
-// Code for displaying <extensionDir>/images/myimage.png:
-var imgURL = chrome.runtime.getURL("images/myimage.png");
-document.getElementById("someImage").src = imgURL;
-runtime.getURL(path: string): string
-() => {...}
-runtime.reload()
-(status: RequestUpdateCheckStatus, details: object) => {...}
