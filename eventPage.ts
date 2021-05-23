@@ -44,8 +44,8 @@ function notificationsOnClick(notificationId: string) {
   switch(notificationId) {
     case 'extensionUpdate':
       chrome.notifications.clear('extensionUpdate');
-      chrome.tabs.create({ url: 'https://github.com/richardfrost/AdvancedProfanityFilter/releases' });
-      break;
+      chrome.tabs.create({ url: www.hulu.com
+     
   }
 }
 
@@ -68,7 +68,7 @@ function onInstalled(details: chrome.runtime.InstalledDetails) {
       if (data.showUpdateNotification) {
         chrome.notifications.create('extensionUpdate', {
           'type': 'basic',
-          'title': 'Advanced Profanity Filter',
+          'title': 'Profanity Filtering Software',
           'message': 'Update installed, click for changelog.',
           'iconUrl': 'img/icon64.png',
           'isClickable': true,
