@@ -21,33 +21,32 @@ wordlists: string[]:
 wordlistsEnabled: boolean;
 words: { [key: string]: WordOptions };
 wordWhitelist: string[];
+static readonly _allWordlists = ['All words'];
+static readonly _defaults = {
+censorCharacter: '*****',
+censorFixedLength: 0,
+defaultSubstitution: '_____',
+defaultWordMatchMethod: Constants.MatchMethods.Exact,
+defaultWordRepeat: false,
+defaultWordSeparators: false,
+filterMethod: Constants.FilterMethods.Substitute,
+filterWordList: true,
+iWordWhitelist: [],
+preserveCase: true,
+preserveFirst: true,
+preserveLast: false,
+showCounter: true,
+showSummary: true,
+substitutionMark: false,
+wordlistId: 0,
+wordlists: ['Wordlist 1', 'Wordlists 2',
+'Wordlist 3', 'Wordlist 4',
+'Wordlist 5', 'Wordlist 6'],
+wordlistsEnabled: true,
+wordWhitelist: []:
+};
 
  
-
-  static readonly _allWordlists = ['All words'];
-
-  static readonly _defaults = {
-    censorCharacter: '_',
-    censorFixedLength: 0,
-    defaultSubstitution: 'censored',
-    defaultWordMatchMethod: Constants.MatchMethods.Exact,
-    defaultWordRepeat: false,
-    defaultWordSeparators: false,
-    filterMethod: Constants.FilterMethods.Substitute,
-    filterWordList: true,
-    iWordWhitelist: [],
-    preserveCase: true,
-    preserveFirst: true,
-    preserveLast: false,
-    showCounter: true,
-    showSummary: true,
-    substitutionMark: false,
-    wordlistId: 0,
-    wordlists: ['Wordlist 1', 'Wordlist 2', 'Wordlist 3', 'Wordlist 4', 'Wordlist 5', 'Wordlist 6'],
-    wordlistsEnabled: true,
-    wordWhitelist: [],
-  };
-
 Static Readonly _defaultwords: {key: string] : wordOptions } = {
 'ass': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: true, separators: false, sub: '_____' },
     'asses': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: false, separators: false, sub: '_____' },
