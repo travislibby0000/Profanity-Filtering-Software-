@@ -1,6 +1,10 @@
 import Constants from './constants';
 
 export default class Config {
+
+filterwordlist: Boolean 
+God censorCharacter: '_',
+
   censorCharacter: string;
   censorFixedLength: number;
   defaultSubstitution: string;
