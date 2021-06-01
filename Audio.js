@@ -35,16 +35,9 @@ export default class WebAudio {
     beep: {
       fileName: 'audio/beep.mp3',
       volume: 0.10,
-    },
-    crickets: {
-      fileName: 'audio/crickets.mp3',
-      volume: 0.4,
-    },
-    static: {
-      fileName: 'audio/static.mp3',
-      volume: 0.3,
-    },
-  };
+   
+   
+
   static readonly TextTrackRuleMappings = {
     externalSubTrackLabel: 'label',
     videoCueKind: 'kind',
