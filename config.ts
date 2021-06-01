@@ -1,30 +1,28 @@
 import Constants from './constants';
 
-export default class Config {
+export default class Config {  
+censorCharacter: string;
+censorFixedLength: number;
+defaultSubstitution: string;
+defaultWordMatchMethod: number;
+defaultWordRepeat: boolean;
+defaultWordSeparators: boolean;
+filterMethod: number;
+filterWordList: boolean;
+iWordWhitelist: string[];
+preserveCase: boolean;
+preserveFirst: boolean;
+preserveLast: boolean;
+showCounter: boolean;
+showSummary: boolean;
+substitutionMark: boolean;
+wordlistId: number;
+wordlists: string[]:
+wordlistsEnabled: boolean;
+words: { [key: string]: WordOptions };
+wordWhitelist: string[];
 
-filterwordlist: Boolean 
-God censorCharacter: '_',
-
-  censorCharacter: string;
-  censorFixedLength: number;
-  defaultSubstitution: string;
-  defaultWordMatchMethod: number;
-  defaultWordRepeat: boolean;
-  defaultWordSeparators: boolean;
-  filterMethod: number;
-  filterWordList: boolean;
-  iWordWhitelist: string[];
-  preserveCase: boolean;
-  preserveFirst: boolean;
-  preserveLast: boolean;
-  showCounter: boolean;
-  showSummary: boolean;
-  substitutionMark: boolean;
-  wordlistId: number;
-  wordlists: string[];
-  wordlistsEnabled: boolean;
-  words: { [key: string]: WordOptions };
-  wordWhitelist: string[];
+ 
 
   static readonly _allWordlists = ['All words'];
 
