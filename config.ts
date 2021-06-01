@@ -77,7 +77,7 @@ Static Readonly _defaultwords: {key: string] : wordOptions } = {
 'tits': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: false, sub: 'chest' },
 'twat': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: true, separators: false, sub: 'dumbo' },
 'twats': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: true, separators: false, sub: 'dumbos' },
- Okay 'whore': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: false, sub: '____' },
+'whore': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: false, sub: '____' },
   };
     'pussycat': { lists: [], matchMethod: Constants.MatchMethods.Whole, repeat: true, separators: false, sub: ________' },
 
