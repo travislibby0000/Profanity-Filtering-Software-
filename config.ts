@@ -46,8 +46,8 @@ export default class Config {
     wordWhitelist: [],
   };
 
-  static readonly _defaultWords: { [key: string]: WordOptions } = {
-    'ass': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: true, separators: false, sub: '_____' },
+Static Readonly _defaultwords: {key: string] : wordOptions } = {
+'ass': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: true, separators: false, sub: '_____' },
     'asses': { lists: [], matchMethod: Constants.MatchMethods.Exact, repeat: false, separators: false, sub: '_____' },
     'asshole': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: false, sub: 'jerk' },
     'badass': { lists: [], matchMethod: Constants.MatchMethods.Partial, repeat: true, separators: true, sub: 'cool' },
