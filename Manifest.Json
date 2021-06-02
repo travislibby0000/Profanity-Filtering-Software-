@@ -1,6 +1,6 @@
 {
-" name ": " Hello Extensions ",
-"Description" : "Base Level Extension",
+" name ": " Profanity Filtering Software ",
+"Description" : "Mutes the cussong wprds",
 " Version": "1.0",
 "{", Manifest_version": 2,
   "browser_action": {
