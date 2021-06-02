@@ -2,15 +2,6 @@
  Word filtering in the Browser Tab button
 anus boolean
 
-HTMLMediaElement
-Closed Captioning 
-
-Window.fullScreen APIs
-
-captions.txt
-
-Web Page www.hulu.com
-
 
 Boolean Anus
 Boolean Arsehole
