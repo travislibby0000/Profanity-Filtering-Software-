@@ -34,7 +34,7 @@ export default class WebAudio {
   static readonly FillerConfig = {
     beep: {
       fileName: 'audio/beep.mp3',
-      volume: 0.10,
+      volume: 200
    
    
 
