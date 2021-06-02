@@ -8,3 +8,12 @@
     "default_icon": "hello_extensions.png"
   }
 } service_worker background.js
+{
+  "name": "Getting Started Example",
+  "description": "Build an Extension!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  }
+}
