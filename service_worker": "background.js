@@ -5,5 +5,5 @@
   "manifest_version": 3,
   "background": {
     ""
-  }
+  }service_worker background.js
 }
