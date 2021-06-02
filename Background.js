@@ -7,3 +7,5 @@ chrome.runtime.onInstalled.addListener((reason) => {
     });
   }
 });
+"persistent": false
+},
