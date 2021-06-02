@@ -6,6 +6,6 @@
   "browser_action": {
     "default_popup": "hello.html",
     "default_icon": "hello_extensions.png"
-  } "Service_worker" backgroundh.js
+  } "Service_worker" "backgroundh.js"
 }
  
