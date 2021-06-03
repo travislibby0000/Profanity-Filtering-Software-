@@ -7,7 +7,7 @@
     "default_popup": "hello.html",
     "default_icon": "hello_extensions.png"
   }
-} service_worker background.js
+} 
 {
   "name": "Getting Started Example",
   "description": "Build an Extension!",
