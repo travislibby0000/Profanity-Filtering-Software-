@@ -1,0 +1,18 @@
+
+# Dev Dependencies
+/node_modules/*
+
+# Packaged extensions
+/dist/*
+/*.zip
+
+# Dev extensions for debugging
+/extension*/*
+
+# Testing
+/test/built/*
+/test/.nyc_output/*
+/test/coverage/*
+
+# Built shared libs
+/src/script/lib/*.js
