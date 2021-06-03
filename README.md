@@ -6,7 +6,7 @@ https://www.websitepolicies.com/policies/view/s0pGpw8p Cookie Policy Page
 
 https://www.websitepolicies.com/policies/view/d7NZvpZv Privacy Policy Page
 
-Advanced Profanity Filter
+Profanity Filtering Software 
 
 Build Status Chrome Web Store Chrome Web Store Discord paypal Patreon
 
@@ -18,14 +18,6 @@ Installation
 
 Browser	Download
 Chrome	Chrome Web Store
-Firefox	Firefox Add-ons
-Edge	Microsoft Edge Addons
-Edge (Legacy)	More Info
-Opera	Opera addons
-Android	Kiwi or Firefox
-iOS/Other	Bookmarklet Info
-TV Cast	Instructions - Discussion
-Features
 
 Filter modes
 Censor - Hide offending words
@@ -33,16 +25,10 @@ Substitute - Replace offensive words
 Remove - Remove offensive words
 Customizable word and substitution lists
 Works everywhere, including popular pages such as:
-Facebook
-Pinterest
-Reddit
-Twitter
 Audio muting for videos on supported sites:
 Amazon Video
 Hulu
 Netflix
-Plex
-Vudu
 YouTube
 And more! You can even add your own! (advanced)
 For a detailed overview of the features and settings, please see the Getting Started page.
