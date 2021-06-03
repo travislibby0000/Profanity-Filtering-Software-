@@ -1,5 +1,5 @@
-@richardfrost
-richardfrost ✨ Add option for filler audio while muting
+Travis Libby
+Travis Libby I ✨ Add option for filler audio while muting
  1 contributor
 232 lines (201 sloc)  7.59 KB
  import Constants from './lib/constants';
