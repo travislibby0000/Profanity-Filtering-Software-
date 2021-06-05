@@ -8,3 +8,4 @@
     "default_icon": "hello_extensions.png"
   }
 }
+"Service worker" "background.js"
