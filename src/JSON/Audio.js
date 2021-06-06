@@ -24,7 +24,7 @@ export default class WebAudio {
   watcherRuleIds: number[];
   wordlistId: number;
   youTube: boolean;
-  youTubeAutoSubsMax: number;
+  youTubeAutoSubsMax: "number";
   youTubeAutoSubsMin: number;
   youTubeAutoSubsTimeout: number;
   youTubeAutoSubsUnmuteDelay: number;
