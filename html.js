@@ -1,5 +1,5 @@
 <html>
   <body>
-    <h1>Hello Extensions</h1>
+    <h1>Profanity Filtering Software </h1>
   </body>
 </html>
