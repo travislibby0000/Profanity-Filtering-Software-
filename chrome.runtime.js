@@ -1,5 +1,5 @@
 @@ -0,0 +1,17 @@
-Microsoftedge.runtime.onMessage.addListener(
+Microsoft.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
     console.log(sender.tab ?
                 "from a content script:" + sender.tab.url :
