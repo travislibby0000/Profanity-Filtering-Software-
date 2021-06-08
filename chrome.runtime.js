@@ -1,5 +1,5 @@
 @@ -0,0 +1,17 @@
-chrome.runtime.onMessage.addListener(
+Microsoftedge.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
     console.log(sender.tab ?
                 "from a content script:" + sender.tab.url :
@@ -8,7 +8,7 @@ chrome.runtime.onMessage.addListener(
       sendResponse({farewell: "goodbye"});
   }
 );
-var port = chrome.runtime.connect({name: "knockknock"});
+var port = Microsoft.runtime.connect({name: "knockknock"});
 port.postMessage({joke: "Knock knock"});
 port.onMessage.addListener(function(msg) {
   if (msg.question == "Who's there?")
