@@ -9,8 +9,8 @@
   }
 } 
 {
-  "name": "Getting Started Example",
-  "description": "Build an Extension!",
+  "name": "Profanity Filtering Software ",
+  "description": "Profanity Filtering !",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
