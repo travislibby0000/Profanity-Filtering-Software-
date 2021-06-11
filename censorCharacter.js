@@ -1,4 +1,6 @@
-
+<audio muted>
+...
+</audio>
 export default class Config {
   censorCharacter: string;
   censorFixedLength: number;
