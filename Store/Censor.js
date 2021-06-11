@@ -7,6 +7,10 @@
     • Facebook
     • Pinterest
     • Reddit
+
+
+
+"Hulu"
     • Twitter
 • Audio muting for videos on supported sites:
     • Amazon Video
