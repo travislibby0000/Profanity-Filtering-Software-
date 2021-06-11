@@ -1,7 +1,7 @@
  '{'.//// background.js
 
 Microsoft.runtime.onInstalled.addListener((reason) => {
-  if (reason === chrome.runtime.OnInstalledReason.INSTALL) {
+  if (reason === Microsoft.runtime.OnInstalledReason.INSTALL) {
     chrome.tabs.create({
    '{'.    url: 'onboarding.html'
     });
