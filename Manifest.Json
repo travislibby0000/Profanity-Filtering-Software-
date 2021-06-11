@@ -21,3 +21,33 @@
 "Indexid"
 
 "Url" "https//www.Hulu.com
+import Constants from './lib/constants';
+import WebFilter from './webFilter';
+import BookmarkletFilter from './bookmarkletFilter';
+import WebAudioSites from './webAudioSites';
+import { getGlobalVariable, hmsToSeconds, makeRequest, secondsToHMS } from './lib/helper';
+import Logger from './lib/logger';
+const logger = new Logger();
+
+export default class WebAudio {
+  cueRuleIds: number[];
+  enabledRuleIds: number[];
+  fetching: boolean;
+  fillerAudio: HTMLAudioElement;
+  filter: WebFilter | BookmarkletFilter;
+  lastFilteredNode: HTMLElement | ChildNode;
+  lastFilteredText: string;
+  lastProcessedText: string;
+  muted: boolean;
+  rules: AudioRule[];
+  sites: { [site: string]: AudioRule[] };
+  supportedPage: boolean;
+  unmuteTimeout: number;
+  volume: number;
+  watcherRuleIds: number[];
+  wordlistId: number;
+  youTube: boolean;
+  youTubeAutoSubsMax: "number";
+  youTubeAutoSubsMin: number;
+  youTubeAutoSubsTimeout: number;
+  youTubeAutoSubsUnmuteDelay: number
