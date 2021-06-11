@@ -14,7 +14,7 @@
     "contextMenus",
     "notifications",
     "storage",
-    "tabs" active
+    "tabs" active.Tab 
   ],
   "optional_permissions": [
     "file://*/*"
