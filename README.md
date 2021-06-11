@@ -16,8 +16,6 @@ For an overview of features and options, please head to the wiki.
 
 Installation
 
-Browser	Download
-Chrome	Chrome Web Store
 
 Filter modes
 Censor - Hide offending words
