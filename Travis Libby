@@ -1,7 +1,0 @@
-import Constants from './lib/constants';
-import WebFilter from './webFilter';
-import BookmarkletFilter from './bookmarkletFilter';
-import WebAudioSites from './webAudioSites';
-import { getGlobalVariable, hmsToSeconds, makeRequest, secondsToHMS } from './lib/helper';
-import Logger from './lib/logger';
-const logger = new Logger();
