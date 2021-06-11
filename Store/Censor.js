@@ -10,7 +10,7 @@
 
 
 
-"Hulu"
+<geturl> 
     • Twitter
 • Audio muting for videos on supported sites:
     • Amazon Video
