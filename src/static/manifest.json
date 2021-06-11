@@ -14,7 +14,7 @@
     "contextMenus",
     "notifications",
     "storage",
-    "tabs"
+    "tabs" active
   ],
   "optional_permissions": [
     "file://*/*"
