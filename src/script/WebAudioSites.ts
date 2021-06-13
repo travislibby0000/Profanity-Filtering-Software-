@@ -42,15 +42,16 @@ export default class WebAudioSites {
         tagName: 'DIV',
       }
     ],
-    'www.att.tv': [{ mode: 'cue', videoSelector: 'video#quickplayPlayer' }],
+   ', videoSelector: 'video#quickplayPlayer' }],
     'www.attwatchtv.com': [{ mode: 'cue', videoSelector: 'video#quickplayPlayer' }],
-    'www.britbox.com': [
+   
       { className: 'bmpui-ui-subtitle-label', mode: 'element', tagName: 'SPAN' },
       { className: 'bmpui-subtitle-region-container', mode: 'element', subtitleSelector: 'div.bmpui-container-wrapper > span.bmpui-ui-subtitle-label', tagName: 'div' },
     ],
-    'gem.cbc.ca': [{ className: 'jw-text-track-container', mode: 'element', subtitleSelector: 'div.jw-text-track-cue', tagName: 'DIV' }],
+
+ '', subtitleSelector: 'div.jw-text-track-cue', tagName: 'DIV' }],
     'www.cbs.com': [{ mode: 'cue', videoCueLanguage: 'en', videoCueRequireShowing: false }],
-    'www.crackle.com': [{ ignoreMutations: true, mode: 'elementChild', parentSelector: 'div.clpp-subtitles-container', simpleUnmute: true, tagName: '#text' }],
+   : true, mode: 'elementChild', parentSelector: 'div.clpp-subtitles-container', simpleUnmute: true, tagName: '#text' }],
     'www.criterionchannel.com': [{ iframe: true, mode: 'cue', videoCueHideCues: true, videoCueRequireShowing: false }],
     'www.crunchyroll.com': [
       {
@@ -110,24 +111,41 @@ export default class WebAudioSites {
       { dataPropPresent: 'dialogueId', mode: 'element', subtitleSelector: 'span > span', tagName: 'DIV' },
       { containsSelector: 'div[data-dialogue-id]', mode: 'element', subtitleSelector: 'span > span', tagName: 'DIV' },
     ],
-    'pluto.tv': [{ mode: 'cue', videoCueHideCues: true, videoCueRequireShowing: false }],
-    'www.redbox.com': [{ mode: 'elementChild', parentSelector: 'div.rb-text-container', subtitleSelector: 'SPAN', tagName: 'DIV' }],
-    'watch.redeemtv.com': [{ convertBreaks: true, displaySelector: 'div.vp-captions', mode: 'elementChild', parentSelector: 'div.vp-captions', tagName: 'SPAN' }],
-    'www.showmax.com': [{ ignoreMutations: true, mode: 'elementChild', parentSelector: 'div.contentWrapper > div.subtitles--3EXhT', simpleUnmute: true, tagName: '#text' }],
-    'play.stan.com.au': [{ ignoreMutations: true, mode: 'elementChild', parentSelector: 'div.clpp-subtitles-container', simpleUnmute: true, tagName: '#text' }],
-    'www.starz.com': [{ mode: 'elementChild', parentSelector: 'starz-captions > div.cue-list', tagName: 'SPAN' }],
-    'www.syfy.com': [{ className: 'ttr-line', mode: 'element', subtitleSelector: 'span.ttr-cue', tagName: 'DIV' }],
-    'www.tntdrama.com': [{ mode: 'cue', videoCueLanguage: 'en', videoSelector: 'video.top-media-element' }],
-    'tubitv.com': [{ mode: 'elementChild', parentSelector: 'div#captionsComponent', tagName: 'SPAN' }],
-    'www.universalkids.com': [{ mode: 'element', subtitleSelector: 'div.gwt-HTML', tagName: 'DIV' }],
-    'www.usanetwork.com': [{ className: 'ttr-line', mode: 'element', subtitleSelector: 'span.ttr-cue', tagName: 'DIV' }],
-    'www.vudu.com': [{ mode: 'element', subtitleSelector: 'span.subtitles', tagName: 'DIV' }],
-    'vrv.co': [
-      { displaySelector: 'div.libassjs-canvas-parent', externalSub: true, externalSubVar: 'window.vilos.content.captions', iframe: true, mode: 'cue', videoCueLanguage: 'en-US', videoCueRequireShowing: false },
-      { displaySelector: 'div.libassjs-canvas-parent', externalSub: true, externalSubVar: 'window.vilos.content.subtitles', iframe: true, mode: 'cue', videoCueLanguage: 'en-US', videoCueRequireShowing: false },
-    ],
-    'm.youtube.com': [{ className: 'caption-window', mode: 'element', subtitleSelector: 'span.ytp-caption-segment', tagName: 'DIV' }],
-    'tv.youtube.com': [{ className: 'caption-window', mode: 'element', subtitleSelector: 'span.ytp-caption-segment', tagName: 'DIV' }],
-    'www.youtube.com': [{ className: 'caption-window', mode: 'element', subtitleSelector: 'span.ytp-caption-segment', tagName: 'DIV' }],
-  };
-}
+
+
+elementChild
+cue
+mode
+
+videoCueHideCues
+videoCueRequireShowing
+elementChild
+parentSelector
+div.rb-text-container
+subtitleSelector
+tagName
+convertBreaks
+displaySelector
+div.vp-captions
+ignoreMutations
+div.contentWrapper
+simpleUnmute
+
+
+Starz
+Hulu
+Netflix 
+AmazonPrimeVideo 
+Youtube 
+
+
+Closed Captioning 
+starz-captions div.cue-list
+
+
+YouTube
+displaySelector
+div.libassjs-canvas-parent
+externalSub "true"
+videoCueLanguage 'en-US'
+videoCueRequireShowing "false"
