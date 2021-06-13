@@ -2,7 +2,7 @@
 
 
 <head>
-    <title>JavaScript BadWord Filter by DevCurry.com</title>
+    <title>JavaScript BadWord Filter/title>
     <script type="text/javascript">
         var filterWords = ["fool", "dumb", "couch potato"];
         // "i" is to ignore case and "g" for global
