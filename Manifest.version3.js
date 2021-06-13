@@ -1,4 +1,4 @@
-Manifest_version3
+
 
 <script defer src="options.js"></script>
 <form id="optionsForm">
