@@ -28,3 +28,8 @@ chrome.runtime.onMessage.addListener(function(message, callback) {
     chrome.runtime.Port.disconnect();
   }
 });
+
+chrome.runtime.onSuspend.addListener(function() {
+  console.log("Unloading.");
+  chrome.browserAction.setBadgeText({text: ""});
+});
